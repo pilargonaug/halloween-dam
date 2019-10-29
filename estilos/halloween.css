@@ -1,0 +1,35 @@
+/* Este es el documento de estilo de Halloween */
+       @font-face {
+         font-family: Lycanthrope;
+         src: url("../fuentes/Lycanthrope.ttf");
+       }
+       body {background:black;}
+       #wrapper {background-image: url("../imagenes/fondo.jfif");
+                 width:1200px;
+                 height:900px;
+                 margin:10px auto;/* centra el wrapper */
+                 font-family: 'Creepster', cursive;
+                 position:relative;
+                 }
+        #titulo {font-size:3em;
+                 position:absolute;
+                 top:4px;
+                 left:30px;
+                 font-family:Lycanthrope;
+                 }
+        #p1 {position:absolute;
+             font-size:1.5em;
+             top:80px;
+             left:870px;}
+        #witch {position:absolute;
+                top:130px;
+                left:900px;
+              /*  border:1px solid white;*/
+                width:100px;
+                height:160px;
+                cursor:pointer;}
+        #zombie {position:absolute;
+                 top:683px;
+                 left:500px;
+                 visibility:hidden;
+                 cursor:crosshair;}
